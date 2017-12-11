@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.header {
+  width: 100%;
+  background-color: #453153;
+  padding: 20px 50px;
+}
+.logo {
+  font-size: 24px;
+}
+.header a {
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+}
+.list {
+  float: right;
+  padding-top: 5px;
+}
+.list li {
+  float: left;
+  margin-left: 20px;
+  list-style: none;
+}
+.image-center {
+  height: 400px;
+  width: 100%;
+  background-image: url("../assets/images/city.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.fisrt-section {
+  overflow: auto;
+}
+.main {
+  padding-top: 30px;
+  overflow: auto;
+}
+.contact {
+  padding-left: 45px;
+}
+.section-article {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+h2 {
+  margin-bottom: 15px;
+}
+h3 {
+  margin-bottom: 15px;
+}
+.article {
+  border: 1px solid #a6aace;
+  border-radius: 8px;
+}
+.button {
+  background-color: #546180;
+  color: #fff;
+  width: 100px;
+  height: 30px;
+  padding: 8px;
+  font-size: 11px;
+  border: none;
+  border-radius: 5px;
+  /*margin-top: 10px;*/
+}
+.text .button {
+  margin-top: 15px;
+  width: 120px;
+  height: 40px;
+  font-size: 13px;
+}
+.art-image {
+  width: 100%;
+  height: 200px;
+}
+.text-article {
+  padding: 20px;
+}
+p {
+  line-height: 22px;
+}
+footer {
+  width: 100%;
+  background-color:  #453153;
+  text-align: center;
+  color: #fff;
+}
+footer p {
+  line-height: 60px;
+}
+.hamburguesa {
+  position: absolute;
+  top: 32px;
+  right: 50px;
+  content: '';
+  height: 2px;
+  width: 24px;
+  background-color: #fff;
+}
+.hamburguesa::before, .hamburguesa::after {
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 24px;
+  display: block;
+  background-color: #fff;
+}
+.hamburguesa::before {
+  top: -8px;
+}
+.hamburguesa::after {
+  top: 8px;
+}
+.desktop {
+  display: none;
+}
+.mobile {
+  display: block;
+}
+.button-section {
+  padding: 10px 25px;
+  background-color:#a6aace;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+@media (min-width:768px) {
+  .desktop {
+    display: block;
+  }
+  .mobile {
+    display: none;
+  }
+  .header {
+    padding: 20px 100px;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact {
+    margin-top: 25px;
+    padding-left: 0;
+  }
+  .article {
+    margin-bottom: 25px;
+  }
+}
