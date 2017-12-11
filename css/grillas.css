@@ -23,7 +23,7 @@
 [class*='col-'] {
   float: left;
 }
-
+/*mobile*/
 .col-xs-1 {
   width: 8.33333333%;
 }
@@ -119,11 +119,8 @@
 .col-xs-offset-12 {
   margin-left: 100%;
 }
-.gluter {
-  margin-right: 1.3%;
-}
-
-@media (max-width: 768px) {
+/*/tablet*/
+@media (min-width: 768px) {
   .col-sm-1 {
     width: 8.33333333%;
   }
@@ -220,7 +217,7 @@
     margin-left: 100%;
   }
 }
-
+/*pc*/
 @media (min-width: 992px) {
   .col-md-1 {
     width: 8.33333333%;
@@ -235,7 +232,7 @@
   }
 
   .col-md-4 {
-    width: 33.33333333%;
+    width: 32%;
   }
 
   .col-md-5 {
@@ -316,5 +313,8 @@
 
   .col-md-offset-12 {
     margin-left: 100%;
+  }
+  .gluter {
+    margin-right: 1%;
   }
 }
