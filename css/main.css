@@ -29,9 +29,9 @@
 .image-center {
   height: 400px;
   width: 100%;
-  background-image: url("../assets/images/city.jpg");
+  background-image: url("../assets/images/principal.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position:center;
   background-size: cover;
 }
 .fisrt-section {
@@ -78,6 +78,30 @@ h3 {
 .art-image {
   width: 100%;
   height: 200px;
+}
+/*img {
+  height:200px;
+  max-width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}*/
+.bg-1 {
+  background-image: url("../assets/images/city.jpg");
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+}
+.bg-2 {
+  background-image: url("../assets/images/galaxy.jpg");
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+}
+.bg-3 {
+  background-image: url("../assets/images/art-1.jpg");
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
 }
 .text-article {
   padding: 20px;
