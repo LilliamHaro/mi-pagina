@@ -7,8 +7,8 @@
 2. Herramientas utilizadas
 	- HTML5
 	- CSS3
-	
+
 3. Autor
 	- Lilliam Haro
 
-4. [Recursos](assets/images/)
+4. [Recursos](assets/images/screencap.png)
