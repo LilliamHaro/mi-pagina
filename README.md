@@ -11,4 +11,6 @@
 3. Autor
 	- Lilliam Haro
 
-4. [Recursos](assets/images/screencap.png)
+4. ![Recursos](assets/images/screencap.png)
+
+5. ![Recursos](assets/images/mobile.png)
